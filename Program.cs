@@ -11,6 +11,7 @@ namespace BMIApp
     {
         static void Main(string[] args)
         {
+
             BMI bmi1 = new BMI(105,"Sampada",22,1.79,92);
             BMI bmi2 = new BMI(106, "SwatiP", 22);
 
