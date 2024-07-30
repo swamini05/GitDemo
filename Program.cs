@@ -14,8 +14,10 @@ namespace BMIApp
             BMI bmi1 = new BMI(105,"Swam",22,1.79,92);
             BMI bmi2 = new BMI(106, "Swati", 22);
 
-            DisplayBMIAndBody(bodyMassIndex1);
-            DisplayBMIAndBodyType(bodyMassIndex2);
+            DisplayBMIAndBodyType(bmi1);
+            DisplayBMIAndBodyType(bmi2);
+            Console.WriteLine("Hello, from swati");
+            Console.WriteLine("I have added")
         }
         static void DisplayBMIAndBody(BMI bmi)
         {
