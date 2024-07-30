@@ -14,10 +14,10 @@ namespace BMIApp
             BMI bmi1 = new BMI(101,"abc",22,1.79,92);
             BMI bmi2 = new BMI(102, "def", 22);
 
-            DisplayBMIAndBodyType(bmi1);
-            DisplayBMIAndBodyType(bmi2);
+            DisplayBMIAndBody(bodyMassIndex1);
+            DisplayBMIAndBodyType(bodyMassIndex2);
         }
-        static void DisplayBMIAndBodyType(BMI bmi)
+        static void DisplayBMIAndBody(BMI bmi)
         {
             double bmiValue = BMI.CalculateBMI(bmi.Height, bmi.Weight);
             string bodyType = BMI.GetBodyType(bmiValue);

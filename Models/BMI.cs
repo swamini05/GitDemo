@@ -20,8 +20,8 @@ namespace BMIApp.Models
         public int Id { get { return _id; } set { _id = value; } }
         public string Name { get { return _name; } set { _name = value; } }
         public int Age { get { return _age; } set { _age = value; } }
-        public double Height { get { return _height; } set { _height = value; } }
-        public double Weight { get { return _weight; } set { _weight = value; } }
+        public double HEIGHT { get { return _height; } set { _height = value; } }
+        public double WEIGHT { get { return _weight; } set { _weight = value; } }
         public BMI(int id, string name, int age)
         {
             Id = id;
